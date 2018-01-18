@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{font-family: "Blanc-Regular", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+
+
+}
+.header{color:midnightblue;
+}
+body{padding:10px;
+
+
+}
+.row{padding:10px;
+
+
+    font-family: 'Lato', sans-serif;
+}
+.img-responsive{max-height: 100px;
+margin:0 auto 0 auto;}
+h1{text-align:center;}
+
+#coins input[type="radio"]{
+    cursor: pointer;
+}
+span{font-size: 150%;}
+#coins input[type="radio"]:checked + span{
+    color:#0B8;
+}
+.r2,.r3{padding: 25px;
+text-indent: 10px;
+
+    }
+.r2{padding-left:80px;
+    background-color: #d7dada;}
+#Search{margin-left:40px;}
+.table.table-bordered{border:2px solid lightslategrey;
+}
+.r3{background-image: url("b1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+color:white;}
+
+.table th{background-color: skyblue;}
+td{color:orangered;}
+h3{margin:70px;}

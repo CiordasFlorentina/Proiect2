@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<head>
+
+    <h1>Cryptocurrency Analyzer</h1>
+
+</head>
+<body>
+<main>
+ <div class="row">
+        <img class ="img-responsive" src="img1.PNG">
+    </div>
+<br/>
+<div class="row r2">
+    <h2>Choose a coin:</h2>
+
+    <form id="coins">
+        <input type="radio" name="coin" value="bitcoin" checked> <span> Bitcoin</span>
+        <input type="radio" name="coin" value="litecoin"> <span>Litecoin</span>
+        <input type="radio" name="coin" value="ethereum"> <span>Ethereum</span>
+        <input type="radio" name="coin" value="zcash"> <span>Zcash</span>
+        <input type="radio" name="coin" value="dash"> <span>Dash</span>
+        <input type="radio" name="coin" value="ripple"> <span>Ripple</span>
+        <input type="radio" name="coin" value="monero"> <span>Monero</span>
+
+    </form>
+    <button class="btn btn-success"id="Search">Search</button>
+</div>
+<hr>
+<div class="row r3">
+    <h3>Compare the currency</h3>
+    <table class="table table-bordered  " id="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Rank</th>
+            <th>Price USD</th>
+            <th>Available Supply</th>
+            <th>Max Supply</th>
+            <th>Change in 1h (%)</th>
+            <th>Change in 24h (%)</th>
+            <th>Change in 1 week (%)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td id="name"></td>
+            <td id="symbol"></td>
+            <td id="rank"></td>
+            <td id="price_usd"></td>
+            <td id="available_supply"></td>
+            <td id="max_supply"></td>
+            <td id="percent_change_1h"></td>
+            <td id="percent_change_24h"></td>
+            <td id="percent_change_7d"></td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</main>
+</body>
+</html>
+<script src="script.js"></script>
+
